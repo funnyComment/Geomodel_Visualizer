@@ -49,7 +49,22 @@ The script uses `matplotlib` to render the robot's kinematic chain in 3D. This p
 ## How to Use
 
 1. Clone this repository.
-2. Make sure your `.geo` file is placed in the root directory.
-3. Run the script:
-   ```bash
-   python visualizer.py
+2. Make sure your `.geo` file is placed in the root directory (or note its full path).
+3. Run the script using one of the following options:
+
+### 📌 Option 1: Provide the file path as a command-line argument
+
+```bash
+python visualizer.py your_model_file.geo
+```
+
+### 📌 Option 2: Manually set the file path in the script
+If you prefer not to pass the path from the command line, you can modify the `filepath` variable directly inside the script. For example:
+```py
+# Replace with your geomodel path 
+filepath = "your_model_file.geo"
+```
+Then simply run:
+```bash
+python visualizer.py
+```
