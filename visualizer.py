@@ -9,7 +9,7 @@ def main():
     """
     # Select filepath
     foldername = 'models'
-    filename = 'R2000iB_200R_modif.geo'
+    filename = 'R2000iB_200R.geo'
     filepath = os.path.join(foldername, filename)
 
     # Load robot data
