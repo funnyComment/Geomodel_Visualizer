@@ -68,14 +68,14 @@ The tool was used to identify inconsistencies in the original model and to adjus
 ### 📌 Option 1: Provide the file path as a command-line argument
 
 ```bash
-python visualizer.py your_model_file.geo
+python visualizer.py your_model_filepath.geo
 ```
 
 ### 📌 Option 2: Manually set the file path in the script
 If you prefer not to pass the path from the command line, you can modify the `filepath` variable directly inside the script. For example:
 ```py
 # Replace with your geomodel path 
-filepath = "your_model_file.geo"
+filepath = "your_model_filepath.geo"
 ```
 Then simply run:
 ```bash
